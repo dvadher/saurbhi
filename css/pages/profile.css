@@ -1,0 +1,1206 @@
+/* ===========================Doctor Profile form page css start===================================================== */
+
+body{
+    font-family: 'Montserrat' !important;
+    background-color: #fff !important;
+    color: #000 !important;
+    letter-spacing: 0.3px !important;
+}
+/* form.avail-form input::placeholder {
+    color: #fff !important;
+} */
+
+.avail-form input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff !important;
+}
+
+.avail-form input::-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #fff;
+}
+
+.avail-form input::-ms-input-placeholder { /* Microsoft Edge */
+  color: #fff;
+}
+.profile h6 {
+    font-size: 18px;
+    padding: 15px 0px;
+    text-transform: capitalize;
+    margin: 0px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #000;
+    letter-spacing: 0.3px;
+}
+.licence-upload hr {
+    margin-top: 15px;
+}
+label.text-secondary.selection {
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding-bottom: 7px;
+}
+label.text-secondary {
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.content {
+    padding: 1.25rem 1.25rem;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    overflow-x: hidden;
+}
+.profile h3 {
+    font-weight: 600;
+    font-size: 25px;
+    color: #000;
+    letter-spacing: 0.3px;
+}
+.text-important{
+    color: #cb2026;
+}
+.profile-photo .doctor_profile{
+    opacity: 0;
+}
+.img-fluid.rounded-circle.imagedisplay{
+    width: 100px;
+    height: 100px;
+}
+.btn_eng{
+    border-radius: 80px 0px 0px 80px;
+}
+.btn_ar{
+    border-radius: 0px 80px 80px 0px;
+}
+.lang_btn{
+    margin-top: 35px;
+}
+.doc_profile_lang_btn{
+    text-decoration: none;
+    padding: 10px 18px;
+    background-color: #fff;
+    color: #58a2d8;
+    border: 2px solid #58a2d8;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    font-size: 16px;
+}
+.doc_profile_lang_btn.mt-3.btn_ar {
+    padding: 10px 27px;
+}
+.doc_profile_lang_btn.active{
+    background-color: #58a2d8;
+    color: #fff;
+    border: 2px solid #58a2d8;
+}
+.btn-upload{
+    background-color: #58a2d8;
+    color: #fff;
+    border-radius: 50px;
+    padding: 3px 7px;
+    position: absolute;
+    left: 70px;
+    bottom: 0px;
+    height: 30px;
+    width: 31px;
+}
+.btn.btn-sub.profile-submit {
+    cursor: pointer;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #fff;
+    background-color: #58a2d8;
+    opacity: 1;
+    border-radius: 60px;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    color: #fff;
+    padding: 0px 26px;
+    width: 175px;
+    height: 48px;
+    display: flex;
+    line-height: normal;
+    font-size: 16px;
+    border: none;
+    position: relative;
+    transition: all 0.5s;
+    border: 1px solid #fff;
+    font-size: 15px;
+}
+.btn.btn-sub.profile-submit i {
+    right: 6px;
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    background: #fff;
+    border-radius: 50%;
+    top: 5px;
+}
+.btn.btn-sub.profile-submit i:before {
+    color: #58a2d8;
+    left: 9px;
+    position: absolute;
+    top: 11px;
+    font-size: 15px;
+}
+.btn.btn-sub.btn-sub-right.profile-submit i {
+    left: 6px !important;
+    right: auto;
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    background: #fff;
+    border-radius: 50%;
+    top: 5px;
+}
+.btn.btn-sub.btn-sub-right.profile-submit i:before {
+    color: #58a2d8;
+    position: absolute;
+   
+}
+.profile_skip span{
+    padding: 15px 31px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.form-group input {
+    border: 0;
+    border-bottom: 1px solid #e1e1e1;
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+}
+.form-control-label{
+    font-size: 15px;
+    font-weight: 500;
+    color: #838282;
+    letter-spacing: 0.3px;
+}
+input.form-control {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.licence{
+    border: 1px solid #d2d2d2;
+    background-color: #f7f7f7;
+    border-radius: 50px;
+    padding: 10px;
+    height: 49px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #777;
+    cursor: pointer;
+}
+.licence-upload {
+    margin-top: 0px;
+    padding: 10px;
+}
+.licence-upload .upload_licence {
+    opacity: 0;
+}
+.licence-upload .upload_cv {
+    opacity: 0;
+}
+.licence.select-files .text-center {
+    /* margin-left: 12px; */
+    padding-left: 36px;
+    text-align: center!important;
+}
+.licence.select-cv .text-center {
+    /* margin-left: 12px; */
+    padding-left: 55px;
+    text-align: center!important;
+}
+.flaticon-upload:before {
+    font-size: 26px !important;
+    position: relative;
+    top: 5px;
+    content: "\f12b";
+    margin-left: 0px !important;
+}
+.flaticon-paper:before {
+    font-size: 22px !important;
+    color: #cb2026;
+}
+.custom-forms label {
+    text-transform: capitalize;
+    font-size: 15px !important;
+    font-weight: 500;
+    color: #838282;
+    margin: 0px 0px 7px;
+}
+
+.licence-upload .uploaded {
+    margin-top: -27px;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: #cb2026 !important;
+}
+.select2-selection--single:not([class*=bg-]):not([class*=border-]) {
+    border: 0px;
+    border-bottom: 1px solid #e1e1e1;
+    background-color: #fff;
+}
+.select2-results__option:hover {
+    border-left: 3px solid #58a2d8;
+}
+.select2-results__option[aria-selected=true] {
+    background-color: #eef6fb !important;
+    color: #838282 !important;
+}
+.select2-results .select2-results__option{
+    padding: 15px 22px;
+}
+.select2-results {
+    display: block;
+    color: #838282;
+    font-weight: 500;
+    font-size: 15px;
+}
+.form-select .select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #000;
+    font-weight: 500;
+    font-size: 15px;
+}
+.select2-selection--single .select2-selection__rendered {
+    display: block;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.multiselect-item.dropdown-item.form-check.active{
+    background-color: #eef6fb !important;
+    color: #000;
+}
+.multiselect-native-select .multiselect-item.dropdown-item.form-check {
+    padding: 6px 10px;
+}
+.multiselect-item input[type=checkbox]:checked~.form-check-control-indicator:after, .multiselect-item input[type=radio]:checked~.form-check-control-indicator:after {
+    font-size: 18px;
+    background: #58a2d8;
+    color: #fff;
+    left: -1px;
+}
+.dropdown-item.active:not(.disabled) input[type=checkbox]~.form-check-control-indicator {
+    border-color: #58a2d8;
+}
+.multiselect.btn-light {
+    background-color: #fff;
+    border: 0px;
+    border-bottom: 1px solid #e1e1e1;
+}
+.multiselect-selected-text {
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+}
+.multiselect-item.dropdown-item.form-check label.form-check-label {
+    font-size: 15px !important;
+    color: #838282 !important;
+    font-weight: 500;
+}
+.multiselect-item input[type=checkbox]~.form-check-control-indicator, .multiselect-item input[type=radio]~.form-check-control-indicator {
+    border: .125rem solid #58a2d8  !important;
+}
+.multiselect-item.dropdown-item a{
+    color: #838282;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: transparent;
+}
+body .dropdown-toggle::after {
+    font-family: icomoon;
+    font-weight: 700;
+    font-size: 12px;
+    color: #000;
+    content: '\e9c9';
+}
+body .select2-selection--single .select2-selection__arrow:after {
+         font-weight: 400;
+    font-size: 20px;
+    color: #000;
+
+}
+button.multiselect.dropdown-toggle.btn.btn-light {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    margin-left: 0px !important;
+}
+.footer .copyright .footer_lines{
+    margin-bottom: 0px;
+} 
+/* validation */
+.validation-error-label {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: block;
+    color: #cb2026;
+    position: relative;
+    font-size: 14px;
+}
+.form-control::placeholder{
+    color:#b6b6b6 !important;
+}
+/* end validation */
+
+/* rtl */
+body.text-right .content-wrapper.text-right .btn_eng {
+    border-radius: 0px 80px 80px 0px;
+}
+body.text-right .select2-results__option:hover {
+    border: 0px;
+    border-right: 3px solid #58a2d8;
+}
+body.text-right .content-wrapper.text-right .btn_ar {
+    border-radius: 80px 0px 0px 80px;
+}
+body:not(.text-right) .text-right .select2-container, body.text-right .text-right .select2-container {
+    text-align: right;
+}
+body.text-right .content-wrapper.text-right .licence.select-files .text-center {
+    padding-right: 33px;
+    text-align: center!important;
+}
+body.text-right .content-wrapper.text-right .licence.select-cv .text-center {
+    padding-left: 0px;
+    padding-right: 55px;
+    text-align: center!important;
+}
+body.text-right .content-wrapper:not(.text-left).text-right .custom-control-label::after, body.text-right .content-wrapper:not(.text-left) .custom-control-label::before, body:not(.text-right) .content-wrapper.text-right .custom-control-label::after, body:not(.text-right) .content-wrapper.text-right .custom-control-label::before {
+    left: auto;
+    right: -30px;
+}
+body.text-right .content-wrapper:not(.text-left).text-right .custom-control-label, body:not(.text-right) .content-wrapper.text-right .custom-control-label {
+    margin-right: 30px;
+}
+body:not(.text-right) .text-right .multiselect-container .multiselect-item.dropdown-item, body.text-right .content-wrapper:not(.text-left).text-right .multiselect-container .multiselect-item.dropdown-item {
+    text-align: right;
+}
+.text-right .content-wrapper .multiselect {
+    text-align: right;
+}
+body:not(.text-right) .text-right .multiselect-native-select .multiselect-item input[type=checkbox]~.form-check-control-indicator, body:not(.text-right) .text-right .multiselect-native-select .multiselect-item input[type=radio]~.form-check-control-indicator, body.text-right .content-wrapper:not(.text-left).text-right .multiselect-item input[type=checkbox]~.form-check-control-indicator, body.text-right .content-wrapper:not(.text-left).text-right .multiselect-item input[type=radio]~.form-check-control-indicator {
+    right: 1rem;
+    left: auto;
+}
+body:not(.text-right) .text-right .multiselect-native-select .dropdown-item.form-check .form-check-label, body.text-right .content-wrapper:not(.text-left).text-right .multiselect-native-select .dropdown-item.form-check .form-check-label {
+    padding-right: 3.25rem;
+    padding-left: 0;
+}
+.text-right .select2-container.select2-container--default.select2-container--open{
+    text-align: right;
+}
+.text-right .custom-control-input {
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    z-index: 1 !important;
+}
+body:not(.text-right) .text-right .select2-selection--single .select2-selection__arrow:after, body.text-right .text-right .select2-selection--single .select2-selection__arrow:after {
+    right: auto;
+    left: 7.5px;
+}
+body.text-right .content-wrapper.text-right .multiselect:after {
+    left: 0px;
+    right: auto;
+}
+body.text-right .content-wrapper:not(.text-left).text-right .multiselect-filter .input-group>i {
+    left: auto;
+    right: .9375rem;
+}
+body.text-right .content-wrapper.text-right .custom-control-inline {
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin-right: 0px;
+}
+body.text-right .social-media ul{
+    float: right;
+}
+body.text-right .footer .footer-menu{
+    float: right;
+}
+body .text-right .multiselect-filter .form-control {
+    padding-right: 2.5625rem;
+}
+/* end rtl */
+/* responsive */
+@media (min-width: 1500px){
+    .container {
+        max-width: 1440px;
+    }
+}
+@media (min-width: 1200px){
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 992px){
+    .container {
+        max-width: 960px;
+    }
+}
+@media (min-width: 768px){
+    .container {
+        max-width: 720px;
+    }
+}
+@media (min-width: 576px){
+    .container {
+        max-width: 540px;
+    }
+}
+
+
+
+
+@media (max-width: 1200px){
+    .licence.select-files .text-center {
+        padding-left: 0px;
+        text-align: center!important;
+    }
+}
+@media (max-width: 1024px){
+    .menu-band {
+        overflow: scroll;
+    }
+}
+@media (max-width: 767px){
+    .custom-control.custom-checkbox.custom-control-inline {
+        margin-left: 0px;
+    }
+    .menu-band {
+        overflow: scroll;
+    }
+    .gen-info-after:after {
+        content: none !important;
+    }
+    .appoint-after:after {
+        content: none !important;
+    }
+    .border-div{
+        border-right: none !important;
+    }
+    .ft-w{
+        font-weight: 500;
+        margin-top: 14px;
+    }
+    .border-div .ft-w{
+        padding-left: 0px !important;
+    }
+    .text-right.social_link {
+        text-align: left !important;
+    }
+    .availability-management .availability{
+        margin-top: 45px;
+    }
+}
+
+@media (max-width: 575px){
+    .custom-control.custom-checkbox.custom-control-inline {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    span.select2.select2-container.select2-container--default {
+        width: 100%;
+    }
+    .profile-page-logo.rounded-circle {
+        margin: 0 auto;
+    }
+    .availability-management .profile-heading h2 {
+        font-size: 20px;
+    }
+}
+@media (max-width: 489px){
+    .profile-header-block {
+        width: 100%;
+    }
+    .btn-list .info-history .info-history-btn {
+        border: 2px solid #808080;
+        border-radius: 30px;
+        padding: 7px 11px;
+        font-size: 15px;
+        font-weight: 600;
+        color: #808080;
+        position: relative;
+        top: 0px;
+    }
+}
+@media (max-width: 380px){
+    .custom-control.custom-checkbox.custom-control-inline {
+        width: 60%;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    span.select2.select2-container.select2-container--default {
+        width: 100%;
+    }
+    .appoint-time span.select2.select2-container.select2-container--default {
+        width: 100% !important;
+    }
+    /* .appoint-table-data .appoint-time .form-group.text-center.appoint-date {
+        width: 70%;
+        margin: 0 auto;
+    } */
+    .appoint-table-data .apppointment-table {
+        margin-right: 0px;
+    }
+    .availability .add-avail h3 {
+        font-size: 18px;
+    }
+    .btn-list .info-history .info-history-btn {
+        border: 2px solid #808080;
+        border-radius: 30px;
+        padding: 5px 3px;
+        font-size: 10px;
+        font-size: 15px;
+        font-weight: 600;
+        color: #808080;
+        position: relative;
+        top: 0px;
+    }
+}
+@media (max-width: 363px){
+    .history-btn.info-history-btn.active.ml-2 {
+        padding: 8px 22px;
+        position: relative;
+        top: 40px;
+        left: -9px;
+    }
+    .btn-list .info-history .info-history-btn {
+        padding: 8px 22px;
+    }
+    .appoint-history .main-history hr {
+        margin-top: 74px !important;
+    }
+}
+@media (max-width: 321px){
+    .history-btn.info-history-btn.active.ml-2 {
+        padding: 8px 16px;
+        position: relative;
+        top: 40px;
+        left: -11px;
+    }
+    .btn-list .info-history .info-history-btn {
+        padding: 8px 16px;
+    }
+    .appoint-history .main-history hr {
+        margin-top: 74px;
+    }
+}
+
+
+
+
+/* end responsive */
+/* ===========================Doctor Profile form page css end===================================================== */
+/* *
+*
+*
+*
+* */
+/* ===========================Doctor Profile page css start===================================================== */
+
+.content.doctor-profile-page {
+    background-color: #58a2d8;
+}
+.profile-page-logo.rounded-circle {
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+body .font-white{
+    color: #fff;
+}
+h1.font-white {
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+
+a.profile-social {
+    color: #fff;
+    background-color: #79b4dc;
+    border: 2px solid #79b4dc;
+    padding: 11px 10px 7px 7px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+/* switch */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 25px;
+}
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 10px;
+    top: 3px;
+    background-color: #58a2d8;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #fff;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+/* end switch */
+.options-menu .profile-block {
+    font-weight: 500;
+    position: relative;
+}
+.options-menu .profile-block i::before {
+    font-size: 25px;
+    padding-bottom: 15px;
+    display: block;
+}
+
+/* .doc-profile .profile-heading {
+    border-bottom: 1px solid #e1e1e1;
+} */
+.doc-profile .row.flex-column-reverse.flex-md-row.mt-4 {
+    border-bottom: 1px solid #e1e1e1;
+}
+.gen-info-after:after {
+    content: ':';
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-right: 20px;
+}
+
+.gen-info-after {
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}   
+/* .doc-profile {
+    color: #000;
+} */
+.profile-heading h2 {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    color: #000;
+}
+.profile-info.mt-4 h3 {
+    font-weight: 600;
+    font-size: 25px;
+    color: #000;
+    letter-spacing: 0.3px;
+}
+.font-weight-profile{
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+}
+.menu-band {
+    -webkit-box-shadow: 0px 0px 19px -8px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 19px -8px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 19px -8px #c0c0c0;
+}
+.menu-band{
+    overflow: auto;
+}
+.menu-list {
+    padding: 18px 0px 0px 0px;
+}
+.options-menu .profile-block.text-center {
+    margin-right: 90px;
+    margin-left: 70px;
+    font-weight: 560;
+    font-size: 15px;
+    color: #000;
+}
+.options-menu .profile-block.text-center:hover{
+    color: #cb2026;
+}
+.options-menu .profile-block.text-center:hover:after {
+    opacity: 1;
+    transition: all 0.5s ease 0s;
+}
+ul.center-menu li a:hover:before {
+    opacity: 1;
+}
+
+.options-menu .profile-block.text-center:after {
+    content: '';
+    display: flex;
+    width: 100%;
+    height: 4px;
+    background: #cb2026;
+    position: absolute;
+    bottom: 0;
+    border: 1px solid #cb2026;
+    border-radius: 9px;
+    opacity: 0;
+    transition: all 0.5s ease 0s;
+    left: 0;
+    /* top: 81px; */
+}
+
+/* switch */
+.setting-toggle-switch {
+  position: relative;
+  display: inline-block;
+  left: -18px;
+  width: 68px;
+  height: 30px;
+}
+.setting-toggle-switch input {display:none;}
+
+.setting-toggle-switch-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  -webkit-transition: .4s;
+  transition: .4s;
+   border-radius: 34px;
+}
+
+.setting-toggle-switch-slider:before {
+    position: absolute;
+    content: "";
+    height: 23px;
+    width: 23px;
+    left: 4px;
+    bottom: 3px;
+    background-color: #58a2d8;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+.setting-toggle-switch input:checked + .setting-toggle-switch-slider {
+  background-color: #fff;
+}
+.setting-toggle-switch input:checked + .setting-toggle-switch-slider:after {
+  left: 30%;
+}
+
+.setting-toggle-switch input:focus + .setting-toggle-switch-slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+.setting-toggle-switch input:checked + .setting-toggle-switch-slider:before {
+    left:-15px;
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(55px);
+}
+.setting-toggle-switch-slider:after
+{
+ content:'No';
+ color: #58a2d8;
+ display: block;
+ position: absolute;
+ transform: translate(-50%,-50%);
+ top: 50%;
+ /* left: 50%; */
+ left: 70%;
+ /* font-size: 10px; */
+ font-size: 13px;
+ font-family: Verdana, sans-serif;
+}
+.setting-toggle-switch input:checked + .setting-toggle-switch-slider:after
+{
+  content:'Yes';
+}
+
+/* end switch */
+
+/* rtl start */
+body.text-right .gen-info-after:after {
+    right: auto;
+    left: 0;
+    padding-right: 0px;
+    padding-left: 20px;
+}
+body.text-right .setting-toggle-switch-slider:after{
+    content: "No";
+}
+body.text-right .setting-toggle-switch input:checked + .setting-toggle-switch-slider:after{
+    content: "Yes";
+}
+body.text-right  .setting-toggle-switch {
+    position: relative;
+    display: inline-block;
+    left: 20px;
+}
+/* rtl end */
+
+/* ===========================Doctor Profile page css end===================================================== */
+/* ===========================Appointment management page css start===================================================== */
+.avail-form .form-group-feedback-right .form-control-feedback {
+    right: 0;
+    top: 26px;
+}
+.availability-management .availability{
+        background-color: #58a2d8;
+    /* padding: 40px 19px; */
+    padding: 32px 23px 10px 23px;
+    /* height: 20px; */
+    /* width: 30% !important;
+    margin-left: 37px; */
+}
+.availability button.btn.btn-sub.profile-submit {
+    margin: 0 auto;
+    background-color: #fff;
+    color: #58a2d8;
+}
+.availability .btn.btn-sub.profile-submit i {
+    right: 6px;
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    background: #58a2d8;
+    border-radius: 50%;
+    top: 5px;
+}
+.availability .btn.btn-sub.profile-submit i:before {
+    color: #fff;
+    left: 9px;
+    position: absolute;
+    top: 11px;
+    font-size: 15px;
+}
+.availability .form-control.form-control-sm {
+    background-color: transparent;
+}
+.availability .form-control-label {
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 0.3px;
+}
+.availability .font-white.cancel {
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    font-size: 16px;
+    color: #fff;
+}
+.add-avail h3 {
+    font-weight: 700;
+    font-size: 20px;
+}
+.availability-management a.btn-all-day {
+    border-radius: 18px;
+    border: 1px solid #fff;
+    padding: 7px;
+    background-color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+}
+.availability a:hover {
+    color: #58a2d8;
+    text-decoration: none;
+}
+.availability a {
+    color: #58a2d8;
+    text-decoration: none;
+}
+.availability .form-group input {
+    color: #fff;
+}
+.appoint-table-data {
+    box-shadow: 0px 0px 19px -8px #c0c0c0;
+}
+.apppointment-table {
+    margin-right: 15px;
+}
+.apppointment-table .appoint-table-body {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 412px;
+    color: #000;
+}
+.apppointment-table .appoint-table-head {
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 12px 0px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+    margin-right: 4px;
+}
+.appoint-table-body .table-action{
+    color: #cb2026;
+}
+.availability-management .profile-heading.mt-4 {
+    border-bottom: 1px solid #e1e1e1;
+}
+/* .apppointment-table .appoint-table-head {
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+    margin-right: 4px;
+} */
+ /* .appoint-table-data .custom-table.table-table> thead, tbody tr {
+    display:table;
+    width:100%;         
+} */
+/*.appoint-table-data .custom-table> thead {
+    width:100%   
+}
+.appoint-table-data .custom-table {
+    width:100%;
+}
+.appoint-table-data #appoint-table thead tr{
+    color: #000;
+}
+.appoint-table-data table#appoint-table {
+    color: #000;
+}
+.appoint-table-data  #appoint-table .action-column a {
+    color: #cb2026;
+} */
+.appoint-time .form-group.text-center.appoint-date {
+    margin: 0 auto;
+}
+.appoint-time .select2-container .select2-selection--single .select2-selection__rendered {
+    padding-left: 0;
+    color: #000;
+    font-weight: 600;
+}
+/* .appoint-table-body::-webkit-scrollbar {
+  color:#ddd ;
+} */
+.appoint-table-body::-webkit-scrollbar{
+    background: #f2f2f2; 
+    width: 5px;
+    border-radius: 5px;
+}
+.appoint-table-body::-webkit-scrollbar-thumb{
+    background: #58a2d8; 
+    border-radius: 5px;
+}
+/* .appoint-table-body::-webkit-scrollbar-arrow-color{
+    background: red; 
+} */
+@media (min-width: 768px){
+    .col-md-4.availability {
+        -ms-flex: 0%;
+        flex: 0% !important;
+        max-width: 30% !important;
+        margin-left: 30px;
+    }
+}
+ 
+/* ===========================Appointment management page css end===================================================== */
+/* ===========================Appointment history page css start===================================================== */
+.back-to-patient {
+    padding: 1.25rem 1.25rem;
+    color: #000;
+    font-weight: 600;
+}
+.page-content.appoint-management .back-to-patient{
+    color: #000;
+    font-weight: 600;
+}
+
+.appoint-profile-picture.rounded-circle {
+    height: 74px;
+    width: 74px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* border: 2px solid; */
+    /* object-fit: cover; */
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.appoint-history-profile {
+    height: 90px;
+    width: 90px;
+    border: 3px solid #e1e1e1;
+    border-radius: 50%;
+    justify-content: center;
+}
+.appoint-after:after {
+    content: ':';
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-right: 7px;
+    font-weight: 700;
+    color: #fff;
+}
+.appoint-after {
+    font-weight: 600;
+}
+.ft-w{
+    font-weight: 500;
+}
+.ft-w-600{
+    font-weight: 600;
+}
+.border-div{
+    border-right: 2px solid #79b4dc;
+}
+.info-history .info-history-btn {
+    border: 2px solid #808080;
+    border-radius: 30px;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #808080;
+}
+.info-history .info-history-btn.active {
+    background-color: #58a2d8;
+    border: 2px solid #58a2d8;
+    color: #fff;
+}
+.appoint-history .main-history hr{
+    margin-top: 50px;
+}
+.appoint-history .appoint-list {
+    background-color: #eef6fb;
+    height: 32px;
+    width: 100%;
+    text-align: center;
+    padding-top: 6px;
+    border-radius: 20px;
+}
+a.history-appoint-list {
+    color: #58a2d8;
+    font-weight: 600;
+}
+
+a.history-appoint-list:hover {
+    color: #58a2d8;
+}
+.full-history {
+    box-shadow: 0px 0px 19px -8px #c0c0c0;
+    padding: 12px;
+}
+.full-history h3 {
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    /* font-size: 24px; */
+    font-family: 'Montserrat' !important;
+}
+.font-style {
+    font-weight: 500;
+    color: #000;
+}
+.icon-color {
+    color: #cb2026;
+}
+
+.appoint-history .history-desccription, .appoint-history .history-desccription-none {
+    width: 100%;
+    padding-left: 10px;
+    border-top: 1px solid #e1e1e1;
+}
+.add-notes-btn.mt-3 {
+    border: 1px solid #58a2d8;
+    border-radius: 30px;
+    padding: 10px 35px;
+    color: #fff;
+    background-color: #58a2d8;
+}
+.description-slider {
+    padding: 0px 10px;
+}
+.history-desccription .owl-theme .owl-dots .owl-dot span {
+    background: #eef6fb;
+}
+.history-desccription .owl-theme .owl-dots .owl-dot.active span {
+    background: #58a2d8;
+}
+.history-desccription .owl-carousel.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #58a2d8 !important;
+    /* background: #869791; */
+}
+.owl-carousel.owl-theme.image-slider.owl-loaded.owl-drag button:focus {
+    outline: none;
+    /* outline: 5px auto -webkit-focus-ring-color; */
+}
+.history-desccription{
+    display: none;
+}
+/* .owl-carousel .owl-nav{
+    overflow: hidden;
+    height: 0px;
+} */
+.owl-carousel .nav-btn{
+    height: 47px;
+    position: absolute;
+    width: 26px;
+    cursor: pointer;
+    top: 100px !important;
+}
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled{
+pointer-events: none;
+opacity: 0.2;
+}
+.owl-carousel .prev-slide{
+    background: url(nav-icon.png) no-repeat scroll 0 0;
+    left: -33px;
+}
+.owl-carousel .next-slide{
+    background: url(nav-icon.png) no-repeat scroll -24px 0px;
+    right: -33px;
+}
+.owl-carousel .prev-slide:hover{
+    background-position: 0px -53px;
+}
+.owl-carousel .next-slide:hover{
+    background-position: -24px -53px;
+}
+/* ===========================Appointment history page css start===================================================== */
